@@ -1,0 +1,103 @@
+div {
+font-size: 30px;;    
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-content: center;
+}
+body div{
+    text-align: center;
+    display: block;
+    width: 15%;
+    margin: 1%;
+}
+ img {
+    width: 15%;
+    height: 110px;
+     margin: 1% 2%;
+ }
+ 
+/*PESQUSIA GOOGLE*/
+.r, 
+.o,
+.l,
+.o2{
+    margin: 0%;
+    padding: 0%;
+}
+.r{
+    color: blue;
+}
+.o {
+    color: red;
+}
+.l {
+    color: yellow;
+}
+.o2 {
+    color: green;
+}
+ #google {
+    width: 100%;
+    text-align: center;
+}
+#google h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.pesquisa {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+.botao{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.pesquisa button{
+    margin: 0%;
+    padding: 0%;
+    height: 35px;
+    margin-top: 1%;
+    
+}
+.pesquisa input{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: #FFA114;
+	color: white;
+	font-family: Raleway, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
