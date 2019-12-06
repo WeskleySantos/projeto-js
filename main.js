@@ -62,17 +62,17 @@ function rasparPaginaMl(documento){
   var mldescricao = document.querySelectorAll(".mldescricao")
   console.log(name);
 
-   for(let i=0; i<5; i++){
+   for(let i=0; i<4; i++){
     var divNova = document.createElement("div");
     divNova.innerHTML = price[i].innerHTML;
 		mlvalor[i].appendChild(divNova);
  };
-  for(let i=0; i<5; i++){
+  for(let i=0; i<4; i++){
     var divNova = document.createElement("div");
     divNova.innerHTML = name[i].innerHTML;
 		mldescricao[i].appendChild(divNova);
  };
-  for(let a=0; a<5; a++){
+  for(let a=0; a<4; a++){
     var divNova = document.createElement("IMG");
     mlimagem[a].src = image[a].src;
 		//mlimagem[i].appendChild(divNova);
