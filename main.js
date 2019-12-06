@@ -50,27 +50,32 @@ function rasparPaginaOlx(documento){
     divNova.src = div.src;
 		document.body.appendChild(divNova);
   }) */
+  i = 0;
 }
 
 function rasparPaginaMl(documento){
   var price = documento.querySelectorAll(".price__fraction");
   var name  = documento.querySelectorAll(".main-title");
   var image = documento.querySelectorAll(".lazy-load")
+  var mlvalor = document.querySelectorAll(".mlvalor")
+  var mlimagem = document.querySelectorAll(".mlimagem")
+  var mldescricao = document.querySelectorAll(".mldescricao")
   console.log(name);
-   for(var i=0; i<7; i++){
+
+   for(let i=0; i<5; i++){
     var divNova = document.createElement("div");
     divNova.innerHTML = price[i].innerHTML;
-		document.body.appendChild(divNova);
+		mlvalor[i].appendChild(divNova);
  };
-  for(var i=0; i<7; i++){
+  for(let i=0; i<5; i++){
     var divNova = document.createElement("div");
     divNova.innerHTML = name[i].innerHTML;
-		document.body.appendChild(divNova);
+		mldescricao[i].appendChild(divNova);
  };
-  for(var i=0; i<7; i++){
+  for(let a=0; a<5; a++){
     var divNova = document.createElement("IMG");
-    divNova.src = image[i].src;
-		document.body.appendChild(divNova);
+    mlimagem[a].src = image[a].src;
+		//mlimagem[i].appendChild(divNova);
  }; 
 }
 
